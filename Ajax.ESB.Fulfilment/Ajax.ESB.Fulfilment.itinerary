@@ -1,3 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<itineraryModel dslVersion="1.0.0.0" Id="c78ee367-c83d-4874-999e-b35dfe5d3a28" name="Ajax" isRequestResponse="false" exportMode="Strict" xmlns="http://schemas.microsoft.com/dsltools/ItineraryDsl">
+<itineraryModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c78ee367-c83d-4874-999e-b35dfe5d3a28" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;XmlExporter&quot;&gt;&#xD;&#xA;    &lt;File&gt;C:\Users\jamesc\Documents\My Itineraries\Ajax.xml&lt;/File&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" name="Ajax" isRequestResponse="false" exportMode="Strict" modelExporter="Exporter|XML Itinerary Exporter|{1d704001-83ed-44c4-a372-34d6667fc28d}" encryptionCertificate="My;CurrentUser;" xmlns="http://schemas.microsoft.com/dsltools/ItineraryDsl">
+  <offRamps>
+    <itineraryModelHasOffRamps Id="1e62a2df-2a1b-41cb-b7aa-ca0aff6773bb">
+      <offRamp Id="d3a6e966-bc5a-4a2f-bbd5-c3b92db6b500" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;OffRampExtender&quot;&gt;&#xD;&#xA;    &lt;IsRequestResponse&gt;false&lt;/IsRequestResponse&gt;&#xD;&#xA;    &lt;ServiceId&gt;8f84063eaac948f5ba2b5399a71d2363&lt;/ServiceId&gt;&#xD;&#xA;    &lt;IsTwoWay&gt;false&lt;/IsTwoWay&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" name="OffRampPurchaseOrder" extender="Off-Ramp|Off-Ramp ESB Extender|{2c831931-631e-4a3e-b0d9-59c53ec08348}" />
+    </itineraryModelHasOffRamps>
+  </offRamps>
+  <onRamp>
+    <itineraryModelHasOnRamp Id="9bc28c02-d845-4038-91f9-cf13e6be5b52">
+      <onRamp Id="e30becd2-3a56-4837-a474-d5a28a4500c9" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;OnRampExtender&quot;&gt;&#xD;&#xA;    &lt;BiztalkApplication&gt;Ajax.ESB.Fulfilment&lt;/BiztalkApplication&gt;&#xD;&#xA;    &lt;ReceivePort&gt;Rcv_PurchaseOrder_ESB.FILE&lt;/ReceivePort&gt;&#xD;&#xA;    &lt;IsTwoWay&gt;false&lt;/IsTwoWay&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" name="OnRampPurchaseOrder" extender="On-Ramp|On-Ramp ESB Extender|{3d237d78-fd66-46cd-b892-5a6e1e8ea06d}" />
+    </itineraryModelHasOnRamp>
+  </onRamp>
 </itineraryModel>

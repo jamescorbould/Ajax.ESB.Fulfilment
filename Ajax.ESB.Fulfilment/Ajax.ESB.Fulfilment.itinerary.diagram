@@ -1,3 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<itineraryDslDiagram dslVersion="1.0.0.0" Id="188ed373-b178-40a0-93b0-8b4db5064067" name="Ajax">
+<itineraryDslDiagram dslVersion="1.0.0.0" Id="188ed373-b178-40a0-93b0-8b4db5064067" absoluteBounds="0, 0, 11, 8.5" name="Ajax">
+  <itineraryModelMoniker Id="c78ee367-c83d-4874-999e-b35dfe5d3a28" />
+  <nestedChildShapes>
+    <onRampShape Id="18387231-64ac-4ba9-9e2f-01bf17c17bfc" absoluteBounds="0.875, 1.25, 1.875, 1.018779296875">
+      <onRampMoniker Id="e30becd2-3a56-4837-a474-d5a28a4500c9" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2ef40de-3330-4a6a-bc91-f315f8c9b53d" absoluteBounds="0.89, 1.6600000000000001, 1.8450000000000002, 0.2493896484375" name="ReceiveCompartment" titleTextColor="Black" itemTextColor="Indigo" />
+        <elementListCompartment Id="fdcb8b9a-2531-487c-9736-fcc89aad9a57" absoluteBounds="0.89, 1.9193896484375, 1.8450000000000002, 0.2493896484375" name="SendCompartment" titleTextColor="Black" itemTextColor="DarkViolet" />
+      </nestedChildShapes>
+    </onRampShape>
+    <offRampShape Id="fcf5d49d-1521-4d64-8fbb-f3fef94e8184" absoluteBounds="3.75, 1.25, 1.5, 1.018779296875">
+      <offRampMoniker Id="d3a6e966-bc5a-4a2f-bbd5-c3b92db6b500" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17fbb5cc-3910-46a1-ba0b-08ec1abcad3d" absoluteBounds="3.7649999999999997, 1.6600000000000001, 1.4700000000000002, 0.2493896484375" name="SendCompartment" titleTextColor="Black" itemTextColor="DarkGoldenrod" />
+        <elementListCompartment Id="b3d2b407-f801-43a0-ba21-66d4ecf1c52f" absoluteBounds="3.7649999999999997, 1.9193896484375, 1.4700000000000002, 0.2493896484375" name="ReceiveCompartment" titleTextColor="Black" itemTextColor="Goldenrod" />
+      </nestedChildShapes>
+    </offRampShape>
+  </nestedChildShapes>
 </itineraryDslDiagram>
