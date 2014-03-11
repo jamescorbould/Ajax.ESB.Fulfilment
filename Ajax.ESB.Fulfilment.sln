@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.ESB.Fulfilment.Externa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.ESB.Fulfilment.InternalSchemas", "Ajax.ESB.Fulfilment.InternalSchemas\Ajax.ESB.Fulfilment.InternalSchemas.btproj", "{9FEE5118-B749-410B-B1D5-7C1BA0CBD762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.ESB.Fulfilment.Maps", "Ajax.ESB.Fulfilment.Maps\Ajax.ESB.Fulfilment.Maps.btproj", "{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,12 @@ Global
 		{9FEE5118-B749-410B-B1D5-7C1BA0CBD762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEE5118-B749-410B-B1D5-7C1BA0CBD762}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FEE5118-B749-410B-B1D5-7C1BA0CBD762}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
