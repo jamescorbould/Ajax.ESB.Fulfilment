@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.ESB.Fulfilment.Interna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.ESB.Fulfilment.Maps", "Ajax.ESB.Fulfilment.Maps\Ajax.ESB.Fulfilment.Maps.btproj", "{DBA27FB7-C517-4BE9-9F52-08C875DCC2FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionArtefacts", "SolutionArtefacts", "{C37C1B50-86E8-4A56-B902-6056028DF4E3}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionArtefacts\Ajax.ESB.Fulfilment.snk = SolutionArtefacts\Ajax.ESB.Fulfilment.snk
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,7 +21,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{199ABEB8-17EC-4236-9F36-BA54A919BB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{199ABEB8-17EC-4236-9F36-BA54A919BB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{199ABEB8-17EC-4236-9F36-BA54A919BB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{199ABEB8-17EC-4236-9F36-BA54A919BB95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{30E6917E-F699-4D12-95CE-7C2AFA9DD4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
