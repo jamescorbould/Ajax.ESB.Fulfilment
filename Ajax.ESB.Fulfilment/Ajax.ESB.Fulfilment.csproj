@@ -39,12 +39,6 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ajax.ESB.Fulfilment.Maps\Ajax.ESB.Fulfilment.Maps.btproj">
-      <Project>{dba27fb7-c517-4be9-9f52-08c875dcc2ff}</Project>
-      <Name>Ajax.ESB.Fulfilment.Maps</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Target Name="Build" />
   <Target Name="Clean" />
   <Target Name="Rebuild" />
