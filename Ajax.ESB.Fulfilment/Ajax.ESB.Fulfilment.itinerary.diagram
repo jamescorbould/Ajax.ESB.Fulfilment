@@ -9,11 +9,11 @@
         <elementListCompartment Id="fdcb8b9a-2531-487c-9736-fcc89aad9a57" absoluteBounds="0.89, 2.1116910807291669, 1.8450000000000002, 0.2493896484375" name="SendCompartment" titleTextColor="Black" itemTextColor="DarkViolet" />
       </nestedChildShapes>
     </onRampShape>
-    <offRampShape Id="fcf5d49d-1521-4d64-8fbb-f3fef94e8184" absoluteBounds="6, 1.25, 1.875, 1.018779296875">
+    <offRampShape Id="fcf5d49d-1521-4d64-8fbb-f3fef94e8184" absoluteBounds="6, 1.25, 1.875, 1.038779296875">
       <offRampMoniker Id="d3a6e966-bc5a-4a2f-bbd5-c3b92db6b500" />
       <nestedChildShapes>
-        <elementListCompartment Id="17fbb5cc-3910-46a1-ba0b-08ec1abcad3d" isExpanded="false" absoluteBounds="6.015, 1.6600000000000001, 1.8450000000000002, 0.2493896484375" name="SendCompartment" titleTextColor="Black" itemTextColor="DarkGoldenrod" />
-        <elementListCompartment Id="b3d2b407-f801-43a0-ba21-66d4ecf1c52f" absoluteBounds="6.015, 1.9193896484375, 1.8450000000000002, 0.2493896484375" name="ReceiveCompartment" titleTextColor="Black" itemTextColor="Goldenrod" />
+        <elementListCompartment Id="17fbb5cc-3910-46a1-ba0b-08ec1abcad3d" absoluteBounds="6.015, 1.6600000000000001, 1.8450000000000002, 0.2693896484375" name="SendCompartment" titleTextColor="Black" itemTextColor="DarkGoldenrod" />
+        <elementListCompartment Id="b3d2b407-f801-43a0-ba21-66d4ecf1c52f" absoluteBounds="6.015, 1.9393896484375, 1.8450000000000002, 0.2493896484375" name="ReceiveCompartment" titleTextColor="Black" itemTextColor="Goldenrod" />
       </nestedChildShapes>
     </offRampShape>
     <itineraryServiceShape Id="d857f8c8-6e5f-468a-9bd3-3f8075f07d3a" absoluteBounds="0.75, 2.875, 2.5, 0.95169108072916675" fillColor="LightSteelBlue" outlineDashStyle="Dash" outlineThickness="0.025">
@@ -22,7 +22,7 @@
         <elementListCompartment Id="625a1a82-69c3-4dd5-9fce-3d901a4c5be3" absoluteBounds="0.765, 3.285, 2.4699999999999998, 0.44169108072916663" name="Resolver" titleTextColor="Black" itemTextColor="SteelBlue" />
       </nestedChildShapes>
     </itineraryServiceShape>
-    <connector Id="a921566f-4011-42db-8818-a5e7bd24cf2c" edgePoints="[(1.8125 : 2.46108072916667); (1.8125 : 2.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <connector Id="a921566f-4011-42db-8818-a5e7bd24cf2c" edgePoints="[(1.8125 : 2.46108072916667); (1.8125 : 2.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <onRampReferencesRequestMoniker Id="539e8646-5ead-4a36-8cda-1fae26771347" />
       <nodes>
         <onRampShapeMoniker Id="18387231-64ac-4ba9-9e2f-01bf17c17bfc" />
@@ -35,7 +35,7 @@
         <elementListCompartment Id="496cbd27-e240-4bd1-8253-66e5a3832515" absoluteBounds="3.6399999999999997, 1.6600000000000001, 1.5950000000000002, 0.2493896484375" name="Resolver" titleTextColor="Black" itemTextColor="SteelBlue" />
       </nestedChildShapes>
     </itineraryServiceShape>
-    <connector Id="a6429c1f-955e-43c6-b656-09e5d6a35c3a" edgePoints="[(3.25 : 3.35084554036458); (4.4375 : 3.35084554036458); (4.4375 : 2.0093896484375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <connector Id="a6429c1f-955e-43c6-b656-09e5d6a35c3a" edgePoints="[(3.25 : 3.35084554036458); (4.4375 : 3.35084554036458); (4.4375 : 2.0093896484375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <itineraryServiceReferencesTargetItineraryServiceMoniker Id="c985dff3-25aa-43df-a0af-b329831f6316" />
       <nodes>
         <itineraryServiceShapeMoniker Id="d857f8c8-6e5f-468a-9bd3-3f8075f07d3a" />
