@@ -9,19 +9,33 @@
           </itineraryServiceHasResolvers>
         </resolvers>
         <targetItineraryService>
-          <itineraryServiceReferencesTargetItineraryService Id="c985dff3-25aa-43df-a0af-b329831f6316">
-            <itineraryServiceMoniker Id="3f05aa16-c248-4cf3-9db8-2a183997042e" />
+          <itineraryServiceReferencesTargetItineraryService Id="c4d567fd-f8b4-4311-be08-fc876dd906c1">
+            <itineraryServiceMoniker Id="8eced97c-47d9-4556-8be7-a045a93d5dac" />
           </itineraryServiceReferencesTargetItineraryService>
         </targetItineraryService>
       </itineraryService>
     </itineraryModelHasItineraryServices>
     <itineraryModelHasItineraryServices Id="1ac50ae1-7bbf-409c-ba8a-0e2b4f3481dd">
-      <itineraryService Id="3f05aa16-c248-4cf3-9db8-2a183997042e" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;MessagingItineraryService&quot;&gt;&#xD;&#xA;    &lt;ServiceType&gt;Messaging&lt;/ServiceType&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;OffRampItineraryService&quot;&gt;&#xD;&#xA;    &lt;OffRamp&gt;&#xD;&#xA;      &lt;Name&gt;OffRampPurchaseOrder&lt;/Name&gt;&#xD;&#xA;      &lt;Handler&gt;sendTransmit&lt;/Handler&gt;&#xD;&#xA;    &lt;/OffRamp&gt;&#xD;&#xA;    &lt;ServiceId&gt;8f84063eaac948f5ba2b5399a71d2363&lt;/ServiceId&gt;&#xD;&#xA;    &lt;ServiceName&gt;DynamicTesting&lt;/ServiceName&gt;&#xD;&#xA;    &lt;ServiceType&gt;Messaging&lt;/ServiceType&gt;&#xD;&#xA;    &lt;BiztalkApplication&gt;Ajax.ESB.Fulfilment&lt;/BiztalkApplication&gt;&#xD;&#xA;    &lt;SendPort&gt;Snd_PurchaseOrder_ESB.FILE&lt;/SendPort&gt;&#xD;&#xA;    &lt;SendPipeline&gt;Microsoft.BizTalk.DefaultPipelines.PassThruTransmit, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&lt;/SendPipeline&gt;&#xD;&#xA;    &lt;ServiceState&gt;Pending&lt;/ServiceState&gt;&#xD;&#xA;    &lt;IsRequestResponse&gt;false&lt;/IsRequestResponse&gt;&#xD;&#xA;    &lt;IsTwoWay&gt;false&lt;/IsTwoWay&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" name="DynamicSendPort" isRequestResponse="false" itineraryServiceExtender="Off-Ramp|Off-Ramp Extender|{ca067e6f-6193-4add-9964-903575dedca9}" isTrackingEnabled="false">
+      <itineraryService Id="3f05aa16-c248-4cf3-9db8-2a183997042e" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;MessagingItineraryService&quot;&gt;&#xD;&#xA;    &lt;ServiceType&gt;Messaging&lt;/ServiceType&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;OffRampItineraryService&quot;&gt;&#xD;&#xA;    &lt;OffRamp&gt;&#xD;&#xA;      &lt;Name&gt;OffRampPurchaseOrder&lt;/Name&gt;&#xD;&#xA;      &lt;Handler&gt;sendTransmit&lt;/Handler&gt;&#xD;&#xA;    &lt;/OffRamp&gt;&#xD;&#xA;    &lt;ServiceId&gt;8f84063eaac948f5ba2b5399a71d2363&lt;/ServiceId&gt;&#xD;&#xA;    &lt;ServiceName&gt;DynamicTesting&lt;/ServiceName&gt;&#xD;&#xA;    &lt;ServiceType&gt;Messaging&lt;/ServiceType&gt;&#xD;&#xA;    &lt;BiztalkApplication&gt;Ajax.ESB.Fulfilment&lt;/BiztalkApplication&gt;&#xD;&#xA;    &lt;SendPort&gt;Snd_PurchaseOrder_ESB.FILE&lt;/SendPort&gt;&#xD;&#xA;    &lt;SendPipeline&gt;Microsoft.BizTalk.DefaultPipelines.PassThruTransmit, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&lt;/SendPipeline&gt;&#xD;&#xA;    &lt;ServiceState&gt;Pending&lt;/ServiceState&gt;&#xD;&#xA;    &lt;IsRequestResponse&gt;false&lt;/IsRequestResponse&gt;&#xD;&#xA;    &lt;IsTwoWay&gt;false&lt;/IsTwoWay&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" name="DynamicSendPort" isRequestResponse="false" itineraryServiceExtender="Off-Ramp|Off-Ramp Extender|{ca067e6f-6193-4add-9964-903575dedca9}" isTrackingEnabled="true">
         <requestForOffRamp>
-          <requestReferencedByOffRamp Id="0993e919-8411-4745-a368-4bd860cefa98">
+          <requestReferencedByOffRamp Id="5593419e-4588-427a-95ad-69463d7de836">
             <offRampMoniker Id="d3a6e966-bc5a-4a2f-bbd5-c3b92db6b500" />
           </requestReferencedByOffRamp>
         </requestForOffRamp>
+      </itineraryService>
+    </itineraryModelHasItineraryServices>
+    <itineraryModelHasItineraryServices Id="94365c3c-c389-4af9-a013-8895a957312d">
+      <itineraryService Id="8eced97c-47d9-4556-8be7-a045a93d5dac" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;ObjectExtenders xsi:type=&quot;MessagingItineraryService&quot;&gt;&#xD;&#xA;    &lt;ServiceName&gt;Microsoft.Practices.ESB.Services.Routing&lt;/ServiceName&gt;&#xD;&#xA;    &lt;ServiceId&gt;6a594d80-91f7-4e10-a203-b3c999b0f55e&lt;/ServiceId&gt;&#xD;&#xA;    &lt;ServiceType&gt;Messaging&lt;/ServiceType&gt;&#xD;&#xA;    &lt;Container&gt;&#xD;&#xA;      &lt;Name&gt;OnRampPurchaseOrder&lt;/Name&gt;&#xD;&#xA;      &lt;Handler&gt;receiveInbound&lt;/Handler&gt;&#xD;&#xA;    &lt;/Container&gt;&#xD;&#xA;  &lt;/ObjectExtenders&gt;&#xD;&#xA;&lt;/ObjectExtenderContainer&gt;" name="MessageRoute" isRequestResponse="false" itineraryServiceExtender="Messaging|Messaging Extender|{a3c184e3-04b5-4aa0-bef4-a1b41f3d9e76}" isTrackingEnabled="false">
+        <resolvers>
+          <itineraryServiceHasResolvers Id="5d7af661-8e9d-41a8-9a6d-4f2d9e1e4048">
+            <resolver Id="4337160d-b3c5-4008-9712-fabb4302d939" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;ObjectExtenders xsi:type=&quot;Uddi3Resolver&quot; /&gt;&lt;ObjectExtenders xsi:type=&quot;StaticResolver&quot;&gt;&lt;TransportType&gt;FILE&lt;/TransportType&gt;&lt;TransportLocation&gt;C:\BizTalk\PurchaseOrderESB\Out\%MessageID%.xml&lt;/TransportLocation&gt;&lt;JaxRpcResponse&gt;false&lt;/JaxRpcResponse&gt;&lt;/ObjectExtenders&gt;&lt;/ObjectExtenderContainer&gt;" name="FileOutResolver" resolverImplementation="STATIC|Static Resolver Extension|{5761a0bc-cbe3-47e0-adf7-bb10c4e226fe}" />
+          </itineraryServiceHasResolvers>
+        </resolvers>
+        <targetItineraryService>
+          <itineraryServiceReferencesTargetItineraryService Id="dff837a1-b536-45a4-a48b-726b47bb8f2b">
+            <itineraryServiceMoniker Id="3f05aa16-c248-4cf3-9db8-2a183997042e" />
+          </itineraryServiceReferencesTargetItineraryService>
+        </targetItineraryService>
       </itineraryService>
     </itineraryModelHasItineraryServices>
   </itineraryServices>
@@ -36,6 +50,9 @@
         <receiveHandlers>
           <esbServiceReferencesReceiveHandlers Id="c141bb16-c890-4489-858a-a8f57a67e534">
             <itineraryServiceMoniker Id="00cb2a22-fa5a-4ac1-8d91-e95237b3147d" />
+          </esbServiceReferencesReceiveHandlers>
+          <esbServiceReferencesReceiveHandlers Id="9b588942-11f3-46c6-90ba-ca2ca4b9ecc2">
+            <itineraryServiceMoniker Id="8eced97c-47d9-4556-8be7-a045a93d5dac" />
           </esbServiceReferencesReceiveHandlers>
         </receiveHandlers>
         <request>
