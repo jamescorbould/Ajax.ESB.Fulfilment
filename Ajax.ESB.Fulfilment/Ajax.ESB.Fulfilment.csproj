@@ -32,6 +32,10 @@
     <None Include="Ajax.ESB.Fulfilment.itinerary.diagram">
       <DependentUpon>Ajax.ESB.Fulfilment.itinerary</DependentUpon>
     </None>
+    <None Include="Ajax.ESB.Fulfilment.BRE.itinerary" />
+    <None Include="Ajax.ESB.Fulfilment.BRE.itinerary.diagram">
+      <DependentUpon>Ajax.ESB.Fulfilment.BRE.itinerary</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\..\Users\jamesc\AppData\Local\Temp\GlobalAssemblyInfo.cs">
