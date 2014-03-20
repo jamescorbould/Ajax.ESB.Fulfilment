@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.ESB.Fulfilment.Maps", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionArtefacts", "SolutionArtefacts", "{C37C1B50-86E8-4A56-B902-6056028DF4E3}"
 	ProjectSection(SolutionItems) = preProject
+		SolutionArtefacts\Ajax.ESB.Fulfilment.Bindings.xml = SolutionArtefacts\Ajax.ESB.Fulfilment.Bindings.xml
 		SolutionArtefacts\Ajax.ESB.Fulfilment.snk = SolutionArtefacts\Ajax.ESB.Fulfilment.snk
 	EndProjectSection
 EndProject
