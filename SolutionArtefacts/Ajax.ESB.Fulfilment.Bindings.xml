@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindingInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Assembly="Microsoft.BizTalk.Deployment, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Version="3.5.1.0" BindingStatus="NoBindings" BoundEndpoints="0" TotalEndpoints="0">
+  <Timestamp>2014-03-20T17:21:10.2659068+13:00</Timestamp>
+  <ModuleRefCollection>
+    <ModuleRef Name="[Application:Ajax.ESB.Fulfilment]" Version="" Culture="" PublicKeyToken="" FullName="[Application:Ajax.ESB.Fulfilment], Version=, Culture=, PublicKeyToken=">
+      <Services />
+      <TrackedSchemas>
+        <Schema FullName="Ajax.ESB.Fulfilment.ExternalSchemas.ExtPurchaseOrder" RootName="Order" AssemblyQualifiedName="Ajax.ESB.Fulfilment.ExternalSchemas.ExtPurchaseOrder,Ajax.ESB.Fulfilment.ExternalSchemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9c1dedcc4cf772c1" AlwaysTrackAllProperties="false">
+          <TrackedPropertyNames />
+        </Schema>
+        <Schema FullName="Ajax.ESB.Fulfilment.InternalSchemas.CanonicalPurchaseOrder" RootName="Order" AssemblyQualifiedName="Ajax.ESB.Fulfilment.InternalSchemas.CanonicalPurchaseOrder,Ajax.ESB.Fulfilment.InternalSchemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9c1dedcc4cf772c1" AlwaysTrackAllProperties="false">
+          <TrackedPropertyNames />
+        </Schema>
+      </TrackedSchemas>
+    </ModuleRef>
+    <ModuleRef Name="Ajax.ESB.Fulfilment.ExternalSchemas" Version="1.0.0.0" Culture="neutral" PublicKeyToken="9c1dedcc4cf772c1" FullName="Ajax.ESB.Fulfilment.ExternalSchemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9c1dedcc4cf772c1">
+      <Services />
+      <TrackedSchemas />
+    </ModuleRef>
+    <ModuleRef Name="Ajax.ESB.Fulfilment.InternalSchemas" Version="1.0.0.0" Culture="neutral" PublicKeyToken="9c1dedcc4cf772c1" FullName="Ajax.ESB.Fulfilment.InternalSchemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9c1dedcc4cf772c1">
+      <Services />
+      <TrackedSchemas />
+    </ModuleRef>
+    <ModuleRef Name="Ajax.ESB.Fulfilment.Maps" Version="1.0.0.0" Culture="neutral" PublicKeyToken="9c1dedcc4cf772c1" FullName="Ajax.ESB.Fulfilment.Maps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9c1dedcc4cf772c1">
+      <Services />
+      <TrackedSchemas />
+    </ModuleRef>
+  </ModuleRefCollection>
+  <SendPortCollection>
+    <SendPort Name="Snd_PurchaseOrder_ESB.FILE" IsStatic="false" IsTwoWay="false" BindingOption="0">
+      <Description xsi:nil="true" />
+      <TransmitPipeline Name="Microsoft.Practices.ESB.Itinerary.Pipelines.ItinerarySendPassthrough" FullyQualifiedName="Microsoft.Practices.ESB.Itinerary.Pipelines.ItinerarySendPassthrough, Microsoft.Practices.ESB.Itinerary.Pipelines, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Type="2" TrackingOption="ServiceStartEnd MessageSendReceive PipelineEvents" />
+      <ReceivePipelineData xsi:nil="true" />
+      <Tracking>204</Tracking>
+      <Filter>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Group&gt;
+    &lt;Statement Property="Microsoft.Practices.ESB.Itinerary.Schemas.ServiceName" Operator="0" Value="DynamicTesting" /&gt;
+    &lt;Statement Property="Microsoft.Practices.ESB.Itinerary.Schemas.ServiceState" Operator="0" Value="Pending" /&gt;
+    &lt;Statement Property="Microsoft.Practices.ESB.Itinerary.Schemas.ServiceType" Operator="0" Value="Messaging" /&gt;
+  &lt;/Group&gt;
+&lt;/Filter&gt;</Filter>
+      <Transforms />
+      <OrderedDelivery>false</OrderedDelivery>
+      <Priority>5</Priority>
+      <StopSendingOnFailure>false</StopSendingOnFailure>
+      <RouteFailedMessage>false</RouteFailedMessage>
+      <ApplicationName>Ajax.ESB.Fulfilment</ApplicationName>
+    </SendPort>
+  </SendPortCollection>
+  <DistributionListCollection />
+  <ReceivePortCollection>
+    <ReceivePort Name="Rcv_PurchaseOrder_ESB.FILE" IsTwoWay="false" BindingOption="0">
+      <Description xsi:nil="true" />
+      <ReceiveLocations>
+        <ReceiveLocation Name="Rcv_PurchaseOrder_ESB.FILE">
+          <Description xsi:nil="true" />
+          <Address>C:\BizTalk\PurchaseOrderESB\In\*.xml</Address>
+          <PublicAddress />
+          <Primary>true</Primary>
+          <ReceiveLocationServiceWindowEnabled>false</ReceiveLocationServiceWindowEnabled>
+          <ReceiveLocationFromTime>2014-03-10T11:00:00</ReceiveLocationFromTime>
+          <ReceiveLocationToTime>2014-03-11T10:59:59</ReceiveLocationToTime>
+          <ReceiveLocationStartDateEnabled>false</ReceiveLocationStartDateEnabled>
+          <ReceiveLocationStartDate>2014-03-11T00:00:00</ReceiveLocationStartDate>
+          <ReceiveLocationEndDateEnabled>false</ReceiveLocationEndDateEnabled>
+          <ReceiveLocationEndDate>2014-03-12T00:00:00</ReceiveLocationEndDate>
+          <ReceiveLocationTransportType Name="FILE" Capabilities="11" ConfigurationClsid="5e49e3a6-b4fc-4077-b44c-22f34a242fdb" />
+          <ReceiveLocationTransportTypeData>&lt;CustomProps&gt;&lt;RenameReceivedFiles vt="11"&gt;0&lt;/RenameReceivedFiles&gt;&lt;RemoveReceivedFileDelay vt="19"&gt;10&lt;/RemoveReceivedFileDelay&gt;&lt;RemoveReceivedFileMaxInterval vt="19"&gt;300000&lt;/RemoveReceivedFileMaxInterval&gt;&lt;FileMask vt="8"&gt;*.xml&lt;/FileMask&gt;&lt;FileNetFailRetryInt vt="19"&gt;5&lt;/FileNetFailRetryInt&gt;&lt;RemoveReceivedFileRetryCount vt="19"&gt;5&lt;/RemoveReceivedFileRetryCount&gt;&lt;BatchSizeInBytes vt="19"&gt;102400&lt;/BatchSizeInBytes&gt;&lt;PollingInterval vt="19"&gt;60000&lt;/PollingInterval&gt;&lt;FileNetFailRetryCount vt="19"&gt;5&lt;/FileNetFailRetryCount&gt;&lt;BatchSize vt="19"&gt;20&lt;/BatchSize&gt;&lt;/CustomProps&gt;</ReceiveLocationTransportTypeData>
+          <ReceivePipeline Name="Microsoft.Practices.ESB.Itinerary.Pipelines.ItinerarySelectReceiveXml" FullyQualifiedName="Microsoft.Practices.ESB.Itinerary.Pipelines.ItinerarySelectReceiveXml, Microsoft.Practices.ESB.Itinerary.Pipelines, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Type="1" TrackingOption="ServiceStartEnd MessageSendReceive PipelineEvents" Description="" />
+          <ReceivePipelineData>&lt;Root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Stages&gt;&lt;Stage CategoryId="9d0e4105-4cce-4536-83fa-4a5040674ad6"&gt;&lt;Components&gt;&lt;Component Name="Microsoft.BizTalk.Component.XmlDasmComp"&gt;&lt;Properties /&gt;&lt;/Component&gt;&lt;/Components&gt;&lt;/Stage&gt;&lt;Stage CategoryId="9d0e410e-4cce-4536-83fa-4a5040674ad6"&gt;&lt;Components&gt;&lt;Component Name="Microsoft.Practices.ESB.Itinerary.PipelineComponents.ItinerarySelector"&gt;&lt;Properties&gt;&lt;ItineraryFactKey vt="8"&gt;Resolver.Itinerary&lt;/ItineraryFactKey&gt;&lt;ResolverConnectionString vt="8"&gt;ITINERARY:\\name=Ajax;&lt;/ResolverConnectionString&gt;&lt;/Properties&gt;&lt;/Component&gt;&lt;Component Name="Microsoft.Practices.ESB.PipelineComponents.Dispatcher"&gt;&lt;Properties /&gt;&lt;/Component&gt;&lt;/Components&gt;&lt;/Stage&gt;&lt;/Stages&gt;&lt;/Root&gt;</ReceivePipelineData>
+          <SendPipeline xsi:nil="true" />
+          <SendPipelineData xsi:nil="true" />
+          <Enable>true</Enable>
+          <ReceiveHandler Name="BizTalkServerApplication" HostTrusted="false">
+            <TransportType Name="FILE" Capabilities="11" ConfigurationClsid="5e49e3a6-b4fc-4077-b44c-22f34a242fdb" />
+          </ReceiveHandler>
+        </ReceiveLocation>
+      </ReceiveLocations>
+      <SendPipelineData xsi:nil="true" />
+      <Authentication>0</Authentication>
+      <Tracking>51</Tracking>
+      <Transforms />
+      <RouteFailedMessage>false</RouteFailedMessage>
+      <ApplicationName>Ajax.ESB.Fulfilment</ApplicationName>
+    </ReceivePort>
+  </ReceivePortCollection>
+  <PartyCollection xsi:nil="true" />
+</BindingInfo>
